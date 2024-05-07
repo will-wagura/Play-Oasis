@@ -1,8 +1,8 @@
-import useData from './useData';
+import useData from "./useData";
 
 const useGames = (gameQuery) =>
   useData(
-    '/games',
+    "/games",
     {
       params: {
         genres: gameQuery.genre?.id,

@@ -875,4 +875,4 @@ const genres = [
   },
 ];
 
-export default genres
+export default genres;

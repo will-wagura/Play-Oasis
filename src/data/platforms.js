@@ -875,4 +875,4 @@ const platforms = [
   },
 ];
 
-export default platforms
+export default platforms;

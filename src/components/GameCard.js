@@ -5,10 +5,7 @@ import CriticScore from './CriticScore';
 import getCroppedImageUrl from '../services/image-url';
 import Emoji from './Emoji';
 
-interface Props {
-  game: Game;
-}
-const GameCard = ({ game }: Props) => {
+const GameCard = ({ game }) => {
   return (
     <>
       <Card>

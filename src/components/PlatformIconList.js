@@ -13,11 +13,8 @@ import { SiNintendo } from 'react-icons/si';
 import { BsGlobe } from 'react-icons/bs';
 import { IconType } from 'react-icons';
 
-interface Props {
-  platforms: Platform[];
-}
-const PlatformIconList = ({ platforms = [] }: Props) => {
-  const iconMap: { [key: string]: IconType } = {
+const PlatformIconList = ({ platforms = [] }) => {
+  const iconMap = {
     pc: FaWindows,
     playstation: FaPlaystation,
     xbox: FaXbox,

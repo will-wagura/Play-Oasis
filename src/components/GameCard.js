@@ -1,7 +1,7 @@
 import { Card, CardBody, HStack, Heading, Image } from "@chakra-ui/react";
 import PlatformIconList from "./PlatformIconList.js";
 import CriticScore from "./CriticScore";
-import getCroppedImageUrl from "../services/image-url";
+import getCroppedImageUrl from "../services/image-url.js";
 
 const GameCard = ({ game }) => {
   return (

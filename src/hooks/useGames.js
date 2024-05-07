@@ -1,4 +1,4 @@
-import useData from "./useData";
+import useData from "./useData.js";
 
 const useGames = (gameQuery) =>
   useData(

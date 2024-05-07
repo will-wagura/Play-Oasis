@@ -1,5 +1,4 @@
 import { Heading } from '@chakra-ui/react';
-import { GameQuery } from '../App';
 
 const GameHeading = ({ gameQuery }) => {
   const heading = `${gameQuery.platform?.name || ''} ${gameQuery.genre?.name || ''} Games`;

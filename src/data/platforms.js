@@ -1,4 +1,4 @@
-export default [
+const platforms = [
   {
     id: 4,
     name: "Action",
@@ -874,3 +874,5 @@ export default [
     ],
   },
 ];
+
+export default platforms

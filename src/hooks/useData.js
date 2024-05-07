@@ -24,7 +24,7 @@ const useData = (endpoint, requestConfig, deps) => {
       });
 
     return () => controller.abort();
-  }, deps || []);
+  }, [endpoint, requestConfig]);
 
   return { data, error, isLoading };
 };
